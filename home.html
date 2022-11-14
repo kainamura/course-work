@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compactible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+  <body>
+
+    <!-- header section starts -->
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="home.html" class="logo">Mary's Shop🏪</a>
+            
+            <nav class="navbar">
+                <a class="home.html">Home</a>
+                <a class="menu.html">Menu</a>
+                <a class="about.html">About</a>
+                <a class="orders.html">Orders</a>
+                <a class="contact.html">Contact</a>
+            </nav>
+
+            <div class = "icons">
+                <a href="search.html"><i class="fas fa-search"></i></a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>(17)</span></a>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+
+            <div class="profile">
+              <p class="name">Mary Tusiime</p>
+                <div class="flex">
+                  <a href="profile.html" class="btn">profile</a>
+                  <a href="#" class="delete-btn">logout</a>
+                </div>
+                <p class="account"><a href="login.html">login</a> or <a href="register.html">register</a></p>
+            </div>
+
+        </section>
+
+    </header>
+    <!-- header section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- hero section starts -->
+
+<section class="hero">
+
+  <div class="swiper hero-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+        <div class="content">
+          <span>order online</span>
+          <h3>declicious sandwiches</h3>
+          <a href="menu.html" class="btn">see menus</a>
+        </div>
+        <div class="image">
+          <img src="images/97541505-9531-4B26-A005-73D1F0111A73_1_105_c.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="swiper-slide slide">
+        <div class="content">
+          <span>order online</span>
+          <h3>amazing samosas</h3>
+          <a href="menu.html" class="btn">see menus</a>
+        </div>
+        <div class="image">
+          <img src="images/maxresdefault.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="swiper-slide slide">
+        <div class="content">
+          <span>order online</span>
+          <h3>sausage wrapped in chapati</h3>
+          <a href="menu.html" class="btn">see menus</a>
+        </div>
+        <div class="image">
+          <img src="images/B8RJ9u-CYAAJWXN.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+  </div>
+</section>
+
+<!-- hero section ends -->
+
+<!--category section starts-->
+
+<section class="category">
+
+  <h1 class="title">shopping category</h1>
+
+  <div class="box-container">
+
+    <a href="#" class="box">
+      <img src="images/breakfast.png" alt="">
+      <h3>breakfast</h3>
+    </a>
+
+    <a href="#" class="box">
+      <img src="images/snack.png" alt="">
+      <h3>snacks</h3>
+    </a>
+
+    <a href="#" class="box">
+      <img src="images/SeekPng.com_soda-png_121948.png" alt="">
+      <h3>drinks</h3>
+    </a>
+    
+    <a href="#" class="box">
+      <img src="images/pngwing.com.png" alt="">
+      <h3>class material</h3>
+    </a>
+
+  </div>
+
+</section>
+
+<!--category section ends-->
+
+<!--home product section starts-->
+<section class="products">
+
+  <h1 class="title">latest items</h1>
+
+  <div class="box-container">
+
+    <form action="" method="post" class="box">
+      <button type="submit" class="fas fa-eye" name="quick view"></button>
+      <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+      <img src="images/pngegg.png" alt="">
+      <a href="#" class="cat">drinks</a>
+      <div class="name">watermelon juice 01=ush3000</div>
+      <div class="flex">
+        <div class="price"><span></span></div>
+        <input type="number" name="qty" class="qty" min="1" max="10" value="1" onkeypress="if(this.value.length == 2) return failse;">
+      </div>
+    </form>
+
+    <form action="" method="post" class="box">
+      <button type="submit" class="fas fa-eye" name="quick view"></button>
+      <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+      <img src="images/Lay's-Salt-&-Vinegar-Flavored-Potato-Chips-on-transparent-background-PNG.png" alt="">
+      <a href="#" class="cat">snacks</a>
+      <div class="name">lays salt & Vinegar Flavored Potato Chips 02=ush12000</div>
+      <div class="flex">
+        <div class="price"><span></span></div>
+        <input type="number" name="qty" class="qty" min="1" max="6" value="1" onkeypress="if(this.value.length == 2) return failse;">
+      </div>
+    </form>
+
+    <form action="" method="post" class="box">
+      <button type="submit" class="fas fa-eye" name="quick view"></button>
+      <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
+      <img src="images/clipart4540167.png" alt="">
+      <a href="#" class="cat">class material 01=ush8000</a>
+      <div class="name">calculator</div>
+      <div class="flex">
+        <div class="price"><span></span></div>
+        <input type="number" name="qty" class="qty" min="1" max="8.5" value="1" onkeypress="if(this.value.length == 2) return failse;">
+      </div>
+    </form>
+
+  </div>
+
+  <div class="more-btn">
+    <a href="menu.html" class="btn">view all</a>
+  </div>
+
+</section>
+<!--home product section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--custom js file link-->
+    <script src="js/script.js"></script>
+
+    <script>
+
+var swiper = new Swiper(".hero-slider", {
+   loop:true,
+   grabCursor: true,
+   effect: "flip",
+   pagination: {
+      el: ".swiper-pagination",
+      clickable:true,
+   },
+});
+
+    </script>
+
+    <!-- footer section starts -->
+
+<footer class="footer">
+
+  <section class="grid">
+
+    <div class="box">
+      <img src="images/584856a7e0bb315b0f7675aa.png" alt="">
+      <h3>My Email</h3>
+      <a href="marytusiime@gmail.com">marytusiime@gmail.com</a>
+    </div>
+    
+    <div class="box">
+      <img src="images/vecteezy_clock-icon-clipart-design-illustration_9342688_130.png" alt="">
+      <h3>Opening Hours</h3>
+      <p>10:30am to 17:00pm</p>
+    </div>
+
+    <div class="box">
+      <img src="images/toppng.com-map-command-comments-map-icon-980x798.png" alt="">
+      <h3>Address</h3>
+      <a href="#">Latitude:0.003611; Longitude:32.014444, Nkozi</a>
+    </div>
+
+    <div class="box">
+      <img src="images/kindpng_109199.png" alt="">
+      <h3>My Contact Number</h3>
+      <a href="tel:0783615183">0783615183</a>
+    </div>
+
+  </section>
+  <div class="credit">created by <span>Mugisha Brian Kainamura</span> | all rights reserved!</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+  </body>
+</html>
